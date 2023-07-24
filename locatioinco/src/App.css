@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  padding-top: 70px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-content {
+  margin-top: -1020px;
+  padding: 0;
+  padding-top: 170px;
+}
+
+.about-section {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 6px;
+  scale: 200%; 
+  margin-top: 100px; 
+  margin-right: 500px; 
+  margin-left: -225px;
+
+}
+
+.gallery img:last-child {
+  margin-right: -100px;  
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+.footer {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.button-translate {
+  font-size: 16px;
+  background-color: #0f83f0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button-translate:hover {
+  background-color: #63b3e2;
+}
